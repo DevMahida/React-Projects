@@ -45,10 +45,6 @@ A simple React dice roller built with Vite and Bootstrap. The app lets you choos
 - The Roll button generates random values from 1 to 6.
 - The Reset button returns both dice to their starting values.
 
-## Video Recordings
-
-Future screen recordings or demo clips for this project should be stored in the [recordings](recordings/README.md) folder.
-
 ## Notes
 
 - This project uses React 19, Vite, and Bootstrap.
