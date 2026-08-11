@@ -2,6 +2,10 @@
 
 A simple React dice roller built with Vite and Bootstrap. The app lets you choose one or two dice, roll them, and reset the values back to `1`.
 
+## Live Demo
+
+See the app in action: https://epic-dice.vercel.app/
+
 ## Setup
 
 1. Install dependencies:
