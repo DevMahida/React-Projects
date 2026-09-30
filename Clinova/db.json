@@ -1,0 +1,689 @@
+{
+  "users": [
+    {
+      "name": "Dev Mahida",
+      "email": "devmahida340@gmail.com",
+      "mNumber": "9313059290",
+      "location": "Vesu, Surat, Gujarat",
+      "password": "LiebeXDev@2005",
+      "role": "patient",
+      "id": "zUfH-OO5tP8"
+    },
+    {
+      "name": "Darsh",
+      "email": "Darsh123@gmail.com",
+      "mNumber": "1234567890",
+      "location": "Adajan, Surat, Gujarat",
+      "password": "D@123#",
+      "role": "patient",
+      "id": "_2_V5ysGsVA"
+    },
+    {
+      "name": "Liebe",
+      "email": "liebe123@gmail.com",
+      "mNumber": "9825510181",
+      "location": "Adajan, Surat, Gujarat",
+      "password": "L@123",
+      "role": "patient",
+      "id": "wKCfGWSg17A"
+    },
+    {
+      "name": "Dev",
+      "email": "L@123.com",
+      "mNumber": "1234567890",
+      "location": "surat",
+      "password": "Dev",
+      "role": "patient",
+      "id": "_IjbU68JE4A"
+    },
+    {
+      "id": "DOC001",
+      "userId": "USER_DOC001",
+      "role": "doctor",
+      "name": "Dr. Arjun Mehta",
+      "email": "arjun.mehta@careconnect.example",
+      "password": "doc001@Care2026!",
+      "consultationFee": 800,
+      "experience": 12,
+      "image": "https://randomuser.me/api/portraits/men/32.jpg",
+      "location": "Bengaluru, Karnataka",
+      "qualification": "MBBS, MD",
+      "specialization": "Cardiologist",
+      "availableDays": [
+        "Monday",
+        "Tuesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "availableSlots": {
+        "Monday": [
+          "09:00",
+          "09:30",
+          "10:00",
+          "10:30"
+        ],
+        "Saturday": [
+          "10:00",
+          "10:30",
+          "11:00",
+          "11:30"
+        ],
+        "Thursday": [
+          "09:00",
+          "09:30",
+          "10:00"
+        ],
+        "Tuesday": [
+          "14:00",
+          "14:30",
+          "15:00",
+          "15:30"
+        ]
+      }
+    },
+    {
+      "id": "DOC002",
+      "userId": "USER_DOC002",
+      "role": "doctor",
+      "name": "Dr. Priya Sharma",
+      "email": "priya.sharma@careconnect.example",
+      "password": "doc002@Care2026!",
+      "consultationFee": 700,
+      "experience": 8,
+      "image": "https://randomuser.me/api/portraits/women/44.jpg",
+      "location": "Mumbai, Maharashtra",
+      "qualification": "MBBS, MD ",
+      "specialization": "Dermatologist",
+      "availableDays": [
+        "Monday",
+        "Wednesday",
+        "Friday"
+      ],
+      "availableSlots": {
+        "Friday": [
+          "10:00",
+          "10:30",
+          "11:00",
+          "11:30"
+        ],
+        "Monday": [
+          "10:00",
+          "10:30",
+          "11:00",
+          "11:30"
+        ],
+        "Wednesday": [
+          "14:00",
+          "14:30",
+          "15:00",
+          "15:30"
+        ]
+      }
+    },
+    {
+      "id": "DOC003",
+      "userId": "USER_DOC003",
+      "role": "doctor",
+      "name": "Dr. Rahul Verma",
+      "email": "rahul.verma@careconnect.example",
+      "password": "doc003@Care2026!",
+      "consultationFee": 900,
+      "experience": 15,
+      "image": "https://randomuser.me/api/portraits/men/46.jpg",
+      "location": "Delhi",
+      "qualification": "MBBS, MS",
+      "specialization": "Orthopedic",
+      "availableDays": [
+        "Tuesday",
+        "Wednesday",
+        "Friday",
+        "Saturday"
+      ],
+      "availableSlots": {
+        "Friday": [
+          "09:00",
+          "09:30",
+          "10:00"
+        ],
+        "Saturday": [
+          "11:00",
+          "11:30",
+          "12:00",
+          "12:30"
+        ],
+        "Tuesday": [
+          "09:00",
+          "09:30",
+          "10:00",
+          "10:30"
+        ],
+        "Wednesday": [
+          "16:00",
+          "16:30",
+          "17:00",
+          "17:30"
+        ]
+      }
+    },
+    {
+      "id": "DOC004",
+      "userId": "USER_DOC004",
+      "role": "doctor",
+      "name": "Dr. Neha Kapoor",
+      "email": "neha.kapoor@careconnect.example",
+      "password": "doc004@Care2026!",
+      "consultationFee": 650,
+      "experience": 10,
+      "image": "https://randomuser.me/api/portraits/women/68.jpg",
+      "location": "Pune, Maharashtra",
+      "qualification": "MBBS, MD",
+      "specialization": "Pediatrician",
+      "availableDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Friday"
+      ],
+      "availableSlots": {
+        "Friday": [
+          "14:00",
+          "14:30",
+          "15:00",
+          "15:30"
+        ],
+        "Monday": [
+          "09:00",
+          "09:30",
+          "10:00",
+          "10:30"
+        ],
+        "Tuesday": [
+          "15:00",
+          "15:30",
+          "16:00",
+          "16:30"
+        ],
+        "Wednesday": [
+          "09:00",
+          "09:30",
+          "10:00"
+        ]
+      }
+    },
+    {
+      "id": "DOC005",
+      "userId": "USER_DOC005",
+      "role": "doctor",
+      "name": "Dr. Vikram Singh",
+      "email": "vikram.singh@careconnect.example",
+      "password": "doc005@Care2026!",
+      "consultationFee": 1200,
+      "experience": 18,
+      "image": "https://randomuser.me/api/portraits/men/52.jpg",
+      "location": "Hyderabad, Telangana",
+      "qualification": "MBBS, MD, DM",
+      "specialization": "Neurologist",
+      "availableDays": [
+        "Monday",
+        "Thursday",
+        "Saturday"
+      ],
+      "availableSlots": {
+        "Monday": [
+          "11:00",
+          "11:30",
+          "12:00",
+          "12:30"
+        ],
+        "Saturday": [
+          "09:00",
+          "09:30",
+          "10:00",
+          "10:30"
+        ],
+        "Thursday": [
+          "15:00",
+          "15:30",
+          "16:00",
+          "16:30"
+        ]
+      }
+    },
+    {
+      "id": "DOC006",
+      "userId": "USER_DOC006",
+      "role": "doctor",
+      "name": "Dr. Ananya Iyer",
+      "email": "ananya.iyer@careconnect.example",
+      "password": "doc006@Care2026!",
+      "consultationFee": 850,
+      "experience": 11,
+      "image": "https://randomuser.me/api/portraits/women/65.jpg",
+      "location": "Chennai, Tamil Nadu",
+      "qualification": "MBBS, MS",
+      "specialization": "Gynecologist",
+      "availableDays": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "availableSlots": {
+        "Saturday": [
+          "15:00",
+          "15:30",
+          "16:00"
+        ],
+        "Thursday": [
+          "10:00",
+          "10:30",
+          "11:00",
+          "11:30"
+        ],
+        "Tuesday": [
+          "10:00",
+          "10:30",
+          "11:00",
+          "11:30"
+        ],
+        "Wednesday": [
+          "14:00",
+          "14:30",
+          "15:00"
+        ]
+      }
+    },
+    {
+      "id": "DOC007",
+      "userId": "USER_DOC007",
+      "role": "doctor",
+      "name": "Dr. Karan Malhotra",
+      "email": "karan.malhotra@careconnect.example",
+      "password": "doc007@Care2026!",
+      "consultationFee": 600,
+      "experience": 7,
+      "image": "https://randomuser.me/api/portraits/men/61.jpg",
+      "location": "Chandigarh",
+      "qualification": "MBBS, MS",
+      "specialization": "ENT Specialist",
+      "availableDays": [
+        "Monday",
+        "Wednesday",
+        "Friday",
+        "Saturday"
+      ],
+      "availableSlots": {
+        "Friday": [
+          "09:00",
+          "09:30",
+          "10:00",
+          "10:30"
+        ],
+        "Monday": [
+          "09:00",
+          "09:30",
+          "10:00"
+        ],
+        "Saturday": [
+          "11:00",
+          "11:30",
+          "12:00"
+        ],
+        "Wednesday": [
+          "14:00",
+          "14:30",
+          "15:00",
+          "15:30"
+        ]
+      }
+    },
+    {
+      "id": "DOC008",
+      "userId": "USER_DOC008",
+      "role": "doctor",
+      "name": "Dr. Sneha Reddy",
+      "email": "sneha.reddy@careconnect.example",
+      "password": "doc008@Care2026!",
+      "consultationFee": 500,
+      "experience": 6,
+      "image": "https://randomuser.me/api/portraits/women/49.jpg",
+      "location": "Hyderabad, Telangana",
+      "qualification": "BDS, MDS",
+      "specialization": "Dentist",
+      "availableDays": [
+        "Monday",
+        "Tuesday",
+        "Thursday",
+        "Friday"
+      ],
+      "availableSlots": {
+        "Friday": [
+          "14:00",
+          "14:30",
+          "15:00",
+          "15:30"
+        ],
+        "Monday": [
+          "10:00",
+          "10:30",
+          "11:00",
+          "11:30"
+        ],
+        "Thursday": [
+          "10:00",
+          "10:30",
+          "11:00"
+        ],
+        "Tuesday": [
+          "15:00",
+          "15:30",
+          "16:00"
+        ]
+      }
+    },
+    {
+      "id": "DOC009",
+      "userId": "USER_DOC009",
+      "role": "doctor",
+      "name": "Dr. Aditya Joshi",
+      "email": "aditya.joshi@careconnect.example",
+      "password": "doc009@Care2026!",
+      "consultationFee": 550,
+      "experience": 9,
+      "image": "https://randomuser.me/api/portraits/men/75.jpg",
+      "location": "Ahmedabad, Gujarat",
+      "qualification": "MBBS, MD",
+      "specialization": "General Physician",
+      "availableDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "availableSlots": {
+        "Friday": [
+          "09:00",
+          "09:30",
+          "10:00"
+        ],
+        "Monday": [
+          "09:00",
+          "09:30",
+          "10:00",
+          "10:30"
+        ],
+        "Thursday": [
+          "14:00",
+          "14:30",
+          "15:00",
+          "15:30"
+        ],
+        "Tuesday": [
+          "14:00",
+          "14:30",
+          "15:00"
+        ],
+        "Wednesday": [
+          "09:00",
+          "09:30",
+          "10:00"
+        ]
+      }
+    },
+    {
+      "id": "DOC010",
+      "userId": "USER_DOC010",
+      "role": "doctor",
+      "name": "Dr. Meera Nair",
+      "email": "meera.nair@careconnect.example",
+      "password": "doc010@Care2026!",
+      "consultationFee": 1000,
+      "experience": 13,
+      "image": "https://randomuser.me/api/portraits/women/50.jpg",
+      "location": "Kochi, Kerala",
+      "qualification": "MBBS, MD",
+      "specialization": "Psychiatrist",
+      "availableDays": [
+        "Monday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "availableSlots": {
+        "Monday": [
+          "11:00",
+          "11:30",
+          "12:00"
+        ],
+        "Saturday": [
+          "10:00",
+          "10:30",
+          "11:00"
+        ],
+        "Thursday": [
+          "11:00",
+          "11:30",
+          "12:00",
+          "12:30"
+        ],
+        "Wednesday": [
+          "15:00",
+          "15:30",
+          "16:00",
+          "16:30"
+        ]
+      }
+    },
+    {
+      "id": "DOC011",
+      "userId": "USER_DOC011",
+      "role": "doctor",
+      "name": "Dr. Rohan Desai",
+      "email": "rohan.desai@careconnect.example",
+      "password": "doc011@Care2026!",
+      "consultationFee": 750,
+      "experience": 14,
+      "image": "https://randomuser.me/api/portraits/men/64.jpg",
+      "location": "Surat, Gujarat",
+      "qualification": "MBBS, MS",
+      "specialization": "Ophthalmologist",
+      "availableDays": [
+        "Tuesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "availableSlots": {
+        "Friday": [
+          "09:00",
+          "09:30",
+          "10:00"
+        ],
+        "Saturday": [
+          "11:00",
+          "11:30",
+          "12:00",
+          "12:30"
+        ],
+        "Thursday": [
+          "14:00",
+          "14:30",
+          "15:00"
+        ],
+        "Tuesday": [
+          "09:00",
+          "09:30",
+          "10:00",
+          "10:30"
+        ]
+      }
+    },
+    {
+      "id": "DOC012",
+      "userId": "USER_DOC012",
+      "role": "doctor",
+      "name": "Dr. Kavya Rao",
+      "email": "kavya.rao@careconnect.example",
+      "password": "doc012@Care2026!",
+      "consultationFee": 1100,
+      "experience": 10,
+      "image": "https://randomuser.me/api/portraits/women/45.jpg",
+      "location": "Bengaluru, Karnataka",
+      "qualification": "MBBS, MD, DM",
+      "specialization": "Endocrinologist",
+      "availableDays": [
+        "Monday",
+        "Tuesday",
+        "Thursday"
+      ],
+      "availableSlots": {
+        "Monday": [
+          "10:00",
+          "10:30",
+          "11:00",
+          "11:30"
+        ],
+        "Thursday": [
+          "10:00",
+          "10:30",
+          "11:00"
+        ],
+        "Tuesday": [
+          "15:00",
+          "15:30",
+          "16:00"
+        ]
+      }
+    },
+    {
+      "id": "DOC013",
+      "userId": "USER_DOC013",
+      "role": "doctor",
+      "name": "Dr. Aman Gupta",
+      "email": "aman.gupta@careconnect.example",
+      "password": "doc013@Care2026!",
+      "consultationFee": 900,
+      "experience": 16,
+      "image": "https://randomuser.me/api/portraits/men/71.jpg",
+      "location": "Jaipur, Rajasthan",
+      "qualification": "MBBS, MD ",
+      "specialization": "Pulmonologist",
+      "availableDays": [
+        "Monday",
+        "Wednesday",
+        "Friday"
+      ],
+      "availableSlots": {
+        "Friday": [
+          "10:00",
+          "10:30",
+          "11:00"
+        ],
+        "Monday": [
+          "09:00",
+          "09:30",
+          "10:00",
+          "10:30"
+        ],
+        "Wednesday": [
+          "14:00",
+          "14:30",
+          "15:00",
+          "15:30"
+        ]
+      }
+    },
+    {
+      "id": "DOC014",
+      "userId": "USER_DOC014",
+      "role": "doctor",
+      "name": "Dr. Ishita Banerjee",
+      "email": "ishita.banerjee@careconnect.example",
+      "password": "doc014@Care2026!",
+      "consultationFee": 1050,
+      "experience": 12,
+      "image": "https://randomuser.me/api/portraits/women/63.jpg",
+      "location": "Kolkata, West Bengal",
+      "qualification": "MBBS, MD, DM",
+      "specialization": "Gastroenterologist",
+      "availableDays": [
+        "Tuesday",
+        "Wednesday",
+        "Friday",
+        "Saturday"
+      ],
+      "availableSlots": {
+        "Friday": [
+          "10:00",
+          "10:30",
+          "11:00",
+          "11:30"
+        ],
+        "Saturday": [
+          "09:00",
+          "09:30",
+          "10:00"
+        ],
+        "Tuesday": [
+          "10:00",
+          "10:30",
+          "11:00"
+        ],
+        "Wednesday": [
+          "15:00",
+          "15:30",
+          "16:00",
+          "16:30"
+        ]
+      }
+    },
+    {
+      "id": "DOC015",
+      "userId": "USER_DOC015",
+      "role": "doctor",
+      "name": "Dr. Sameer Khan",
+      "email": "sameer.khan@careconnect.example",
+      "password": "doc015@Care2026!",
+      "consultationFee": 950,
+      "experience": 17,
+      "image": "https://randomuser.me/api/portraits/men/39.jpg",
+      "location": "Lucknow, Uttar Pradesh",
+      "qualification": "MBBS, MS, MCh",
+      "specialization": "Urologist",
+      "availableDays": [
+        "Monday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "availableSlots": {
+        "Friday": [
+          "14:00",
+          "14:30",
+          "15:00"
+        ],
+        "Monday": [
+          "14:00",
+          "14:30",
+          "15:00",
+          "15:30"
+        ],
+        "Saturday": [
+          "10:00",
+          "10:30",
+          "11:00",
+          "11:30"
+        ],
+        "Thursday": [
+          "09:00",
+          "09:30",
+          "10:00"
+        ]
+      }
+    }
+  ],
+  "appointments": [],
+  "specializations": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}

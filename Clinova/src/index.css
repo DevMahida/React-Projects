@@ -1,0 +1,411 @@
+html,
+body,
+#root {
+    height: 100%;
+    font-family: "Inter", sans-serif;
+}
+
+:root {
+    --color-cs-primary: #131313;
+    --color-cs-secondary: #a4a4a4;
+    --color-cs-tertory: #201F1F;
+    --color-cs-highlight: #4EDEA3;
+    --color-cs-light-green: #BBCABF;
+    --color-cs-dark-green: #0B2C2C;
+    --color-black: #000;
+    --color-cs-gray:#9BA2AD;
+    --color-sidebar:#0E0E0E;
+    --color-header-bg: #141515;
+    --color-cs-register: #1C1B1B;
+    --color-cs-login-bg: #14181db6;
+    --color-cs-register-field-bg: #131313a2;
+    --color-cs-register-field-text: #a7a7a7;
+    --color-cs-register-field-border: #3c3c3c;
+}
+
+/* #region Utils */
+
+/* #region background color */
+
+.bg-cs-primary {
+    background-color: var(--color-cs-primary);
+}
+
+.bg-login {
+    background-color: var(--color-cs-login-bg) !important;
+}
+
+.bg-cs-tertory {
+    background-color: var(--color-cs-tertory) !important;
+}
+
+.bg-cs-register {
+    background-color: var(--color-cs-register);
+}
+
+.bg-highlight {
+    background-color: var(--color-cs-highlight);
+}
+
+.bg-header {
+    background-color: var(--color-header-bg);
+}
+
+/* #endregion */
+
+/* #region text color */
+
+.text-cs-secondary {
+    color: var(--color-cs-secondary) !important;
+}
+
+.text-highlight {
+    color: var(--color-cs-highlight) !important;
+}
+
+.text-cs-gray{
+    color: var(--color-cs-gray);
+}
+
+.text-lightGreen {
+    color: var(--color-cs-light-green) !important;
+}
+
+/* #endregion */
+
+/* #region form styling */
+
+.btn-outline-highlighted {
+    width: 150px;
+    padding: 10px 5px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    font-size: 14px;
+    background-color: transparent;
+    border: 1px solid var(--color-cs-highlight);
+    color: var(--color-cs-highlight) !important;
+    transition: all 0.2s linear;
+}
+
+.btn-outline-highlighted:hover {
+    background-color: var(--color-cs-highlight);
+    color: var(--color-black) !important;
+}
+
+.btn-highlighted {
+    width: 150px;
+    padding: 10px 5px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    font-size: 14px;
+    background-color: var(--color-cs-highlight);
+    border: 1px solid var(--color-cs-highlight);
+    color: var(--color-cs-primary) !important;
+    transition: all 0.2s linear;
+}
+
+.btn-highlighted:hover {
+    background-color: #89efc4;
+}
+
+.select {
+    border: 0;
+}
+
+.select:focus {
+    box-shadow: none;
+}
+
+.select option{
+    background-color: var(--color-cs-primary);
+    /* color: var(--color-cs-primary); */
+}
+
+/* #endregion */
+
+/* #region border */
+
+.border-highlighted {
+    border-color: var(--color-cs-highlight) !important;
+}
+
+.border-cs-color {
+    border-color: var(--color-cs-register-field-border) !important;
+}
+
+/* #endregion */
+
+.w-250px {
+    width: 250px !important;
+}
+
+.z-10 {
+    z-index: 10 !important;
+}
+
+.font-geist {
+    font-family: "Geist", sans-serif !important;
+}
+
+.ls-3px {
+    letter-spacing: 3px;
+}
+
+.badge-lightGreen {
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: var(--color-cs-light-green);
+    background-color: #bbcabf23;
+}
+
+
+/* #endregion */
+
+.header {
+    background: #1415159a;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.224);
+    z-index: 10 !important;
+}
+
+/* #region Register */
+
+.register {
+    width: 40%;
+    background-image: url('./assets/register-bg.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    box-shadow: inset -30px 0 20px var(--color-cs-register);
+}
+
+.register::after {
+    position: absolute;
+    content: '';
+    background-color: #1c1b1ba9;
+    inset: 0;
+}
+
+.form label {
+    color: var(--color-cs-secondary);
+    font-size: small;
+}
+
+.form input,
+.form textarea,
+.form select {
+    margin-top: 8px;
+    color: var(--color-cs-register-field-text) !important;
+    background-color: var(--color-cs-register-field-bg) !important;
+    border: 2px solid var(--color-cs-register-field-border);
+    transition: all 0.3s linear;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+    color: var(--color-cs-register-field-text) !important;
+}
+
+.form input:focus,
+.form textarea:focus,
+.form select:focus {
+    border-color: var(--color-cs-highlight);
+    box-shadow: none;
+}
+
+.back {
+    display: inline-block;
+    color: var(--color-cs-register-field-text);
+    transition: all 0.3s linear;
+}
+
+.back:hover {
+    color: var(--color-cs-highlight);
+    transform: translateX(-5px);
+}
+
+.eye-btn {
+    cursor: pointer;
+    position: absolute;
+    top: 38px;
+    right: 3%;
+}
+
+/* #endregion */
+
+/* #region Login */
+
+.login {
+    height: 100%;
+    background-image: url('./assets/bgLogin.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+}
+
+.login::after {
+    position: absolute;
+    content: '';
+    inset: 0;
+    background-color: #14151588;
+}
+
+.login .bg-login {
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+/* #endregion */
+
+/* #region Home page */
+
+/* #region Hero section */
+
+.Hero-Section {
+    height: 100vh;
+    background-image: url('./assets/banner-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.Hero-Section:after {
+    position: absolute;
+    content: '';
+    inset: 0;
+    background-color: #000000be;
+    z-index: 1;
+}
+
+.cs-badge {
+    border: 2px solid;
+    border-color: var(--color-cs-highlight) !important;
+    background-color: #4edea22d !important;
+    color: var(--color-cs-highlight);
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0.5;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.5;
+    }
+}
+
+.cs-badge i {
+    animation: fadeIn 3s ease-in infinite;
+}
+
+.grediant {
+    background: linear-gradient(149deg, rgba(255, 255, 255, 1) 29%, rgba(78, 222, 163, 1) 72%);
+
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.Search input {
+    border: 0;
+}
+
+.Search input::placeholder,
+.Search .search-icon {
+    color: #bbcabfa8;
+}
+
+.Search input:focus {
+    box-shadow: none;
+}
+
+/* #endregion */
+
+
+
+/* #endregion */
+
+/* #region Specialist page */
+
+.doctor-card .image {
+    border: 3px solid #4edea27a;
+    border-radius: 10px;
+}
+
+/* #endregion */
+
+.dashboardLayout{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+
+/* #region doctor dashboard page */
+
+.sidebar{
+    width: 250px;
+    height: 100vh;
+    background-color: var(--color-sidebar) !important;
+}
+
+.Header{
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    top: 0;
+    height: 87px;
+    padding: 15px;
+}
+
+.side-links{
+    display: flex !important;
+    letter-spacing: 1px;
+    color: var(--color-cs-gray) !important;
+    font-size: 17px;
+    margin: 5px 0;
+    border-radius: 10px;
+    transition: all 0.3s linear !important;
+}
+
+.side-links:hover{
+    background-color: var(--color-cs-highlight) !important;
+    color: var(--color-black) !important;
+}
+
+.profileDoctor, .profilePatient{
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid var(--color-cs-dark-green);
+}
+
+.profilePatient{
+    width: 40px !important;
+    padding: 2px;
+}
+
+.logoutBtn{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.logoutBtn:hover{
+    color: #DC3545;
+    background-color: #dc354644;
+}
+
+/* #endregion */
+
