@@ -13,6 +13,7 @@ import Login from "./pages/Login";
 import Protected from "./utils/Protected";
 import DashboardHome from "./components/Dashboard/DashboardHome";
 import DashboardLayout from "./pages/DashboardLayout";
+import ManageSlots from "./components/Dashboard/ManageSlots";
 
 function App() {
    return (
@@ -34,7 +35,7 @@ function App() {
                   <Route path="/dashboard/patient" element={<h1>Patient</h1>} />
                   <Route path="/dashboard/doctor">
                      <Route path="/dashboard/doctor/home" element={<DashboardHome /> }/>
-                     <Route path="/dashboard/doctor/manage-slots" element={<h1>Manage Slots</h1> }/>
+                     <Route path="/dashboard/doctor/manage-slots" element={<ManageSlots /> }/>
                   </Route>
                </Route>
             </Route>

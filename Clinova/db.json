@@ -683,6 +683,16 @@
       }
     }
   ],
+  "slots": [
+    {
+      "doc_id": "DOC001",
+      "date": "2026-10-13",
+      "Stime": "16:20",
+      "Etime": "17:18",
+      "available": true,
+      "id": "XrcKBF52_j8"
+    }
+  ],
   "appointments": [],
   "specializations": [],
   "$schema": "./node_modules/json-server/schema.json"

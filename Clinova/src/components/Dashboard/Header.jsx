@@ -18,9 +18,9 @@ function Header() {
 
    return (
       <>
-         <header className="bg-cs-primary Header">
+         <header className="bg-cs-primary Header border-bottom border-dark">
             {/* profile */}
-            <div class="dropdown text-end">
+            <div className="dropdown text-end">
                <span
                   className="d-inline-block"
                   data-bs-toggle="dropdown"
@@ -36,9 +36,9 @@ function Header() {
                      alt="user picture"
                   />
                </span>
-               <ul class="dropdown-menu p-1">
+               <ul className="dropdown-menu p-1">
                   <li className="p-1 border-bottom">
-                     <a class="dropdown-item" href="#">
+                     <a className="dropdown-item" href="#">
                         Profile Settings
                      </a>
                   </li>

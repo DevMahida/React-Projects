@@ -39,6 +39,10 @@ body,
     background-color: var(--color-cs-tertory) !important;
 }
 
+.text-cs-gray{
+    color: var(--color-cs-gray);
+}
+
 .bg-cs-register {
     background-color: var(--color-cs-register);
 }
@@ -405,6 +409,26 @@ body,
 .logoutBtn:hover{
     color: #DC3545;
     background-color: #dc354644;
+}
+
+.custom-table {
+   border-radius: 12px;
+   overflow: hidden;
+   border: 1px solid #343a40;
+}
+
+.custom-table th,
+.custom-table td {
+   padding: 16px 20px;
+   vertical-align: middle;
+}
+
+.custom-table thead th {
+   padding: 18px 20px;
+}
+
+.custom-table tbody td {
+   padding: 18px 20px;
 }
 
 /* #endregion */

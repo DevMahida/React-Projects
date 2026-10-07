@@ -3,7 +3,7 @@ import { Outlet } from 'react-router'
 
 function Main() {
   return (
-    <main>
+    <main className='bg-header vh-100'>
       <Outlet />
     </main>
   )
