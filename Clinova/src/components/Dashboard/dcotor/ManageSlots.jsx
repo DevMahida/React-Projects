@@ -1,16 +1,20 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { createSlot, deleteSlot, fetchSlots } from "../../features/appointment.slice";
+import {
+   createSlot,
+   deleteSlot,
+   fetchSlots,
+} from "../../../features/appointment.slice";
+import { toast } from "react-toastify";
 
 function ManageSlots() {
-
-   useEffect(()=>{
-      document.title = 'Manage Slots'
-   },[])
+   useEffect(() => {
+      document.title = "Manage Slots";
+   }, []);
 
    const dispatch = useDispatch();
    const { currentUser } = useSelector((state) => state.user);
-   const { slots, pending, error } = useSelector((state) => state.appointment);
+   const { slots } = useSelector((state) => state.appointment);
 
    // date selection
    const currentDate = new Date();
@@ -48,7 +52,7 @@ function ManageSlots() {
       setSlotFields({ ...slotFields, [e.target.name]: e.target.value });
    };
 
-   const handleAddSlot = () => {
+   const handleAddSlot = async () => {
       // e.preventDefault();
 
       if (
@@ -56,7 +60,7 @@ function ManageSlots() {
          slotFields.Stime == "" ||
          slotFields.Etime == ""
       ) {
-         alert("Please Fill all Fields!");
+         toast.error("Please Fill all Fields!");
          return;
       }
 
@@ -68,24 +72,33 @@ function ManageSlots() {
          available: true,
       };
 
-      let res = dispatch(createSlot(data));
+      let res = await dispatch(createSlot(data));     
 
-      console.log("slots", res);
+      if (res.meta.requestStatus == 'fulfilled') {
+         toast.success("Slots is added.")
+      }else{
+         toast.error("Error accoured");
+      }
 
       setSlotFields(initialData);
-
-      console.log("Slot", data);
    };
 
    const handleSlotDelete = (item) => {
+      if (item.available === false) {
+         toast.error("Cannot delete a booked slot!");
+         return;
+      }
+
       dispatch(deleteSlot(item));
+
+      toast.success("Slot deleted ");
    };
 
    useEffect(() => {
-      dispatch(fetchSlots());
-   }, [dispatch]);
-
-   console.log(slots);
+   if (currentUser?.id) {
+      dispatch(fetchSlots(currentUser.id));
+   }
+}, [dispatch, currentUser?.id]);
 
    return (
       <>
@@ -122,37 +135,56 @@ function ManageSlots() {
          <section>
             <div className="container">
                <table className="table table-dark custom-table">
-                  <thead >
-                     <tr >
-                        <th scope="col">id</th>
+                  <thead>
+                     <tr>
                         <th scope="col">Start Time</th>
                         <th scope="col">End Time</th>
                         <th scope="col">Date</th>
+                        <th className="status-column" scope="col">
+                           Status
+                        </th>
                         <th scope="col">Action</th>
                      </tr>
                   </thead>
                   <tbody>
                      {slots.length == 0 ? (
                         <tr>
-                           <td className="text-center" colSpan={`5`}>No Data</td>
+                           <td className="text-center" colSpan={`5`}>
+                              No Data
+                           </td>
                         </tr>
                      ) : (
-                        slots.map((item, key) => (
-                           <tr key={key}>
-                              <td>{item.id}</td>
-                              <td>{formatTime(item.Stime)}</td>
-                              <td>{formatTime(item.Etime)}</td>
-                              <td>{formatDate(item.date)}</td>
-                              <td>
-                                 <button
-                                    className="btn btn-outline-danger"
-                                    onClick={() => handleSlotDelete(item)}
-                                 >
-                                    <i className="ri-delete-bin-2-fill"></i>
-                                 </button>
-                              </td>
-                           </tr>
-                        ))
+                        [...slots]
+                           .sort((a, b) => a.date.localeCompare(b.date))
+                           .map((item, key) => (
+                              <tr key={key}>
+                                 <td>{formatTime(item.Stime)}</td>
+                                 <td>{formatTime(item.Etime)}</td>
+                                 <td>{formatDate(item.date)}</td>
+                                 <td>
+                                    <div
+                                       className={`text-center
+                                       ${
+                                          item.available === true
+                                             ? "text-highlight"
+                                             : "text-danger "
+                                       }
+                                    `}
+                                    >
+                                       <i className="ri-checkbox-blank-circle-fill"></i>
+                                    </div>
+                                 </td>
+                                 <td>
+                                    <button
+                                       className="btn btn-outline-danger"
+                                       onClick={() => handleSlotDelete(item)}
+                                       disabled={item.available === false ? true : false}
+                                    >
+                                       <i className="ri-delete-bin-2-fill"></i>
+                                    </button>
+                                 </td>
+                              </tr>
+                           ))
                      )}
                   </tbody>
                </table>

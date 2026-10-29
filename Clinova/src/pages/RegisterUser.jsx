@@ -8,7 +8,6 @@ function Register() {
 
    const navigate = useNavigate();
    
-
    useEffect(() => {
       document.title = "Patient Registration";
    }, []);
@@ -59,17 +58,15 @@ function Register() {
       e.preventDefault();
 
       if (isNaN(fieldValue.mNumber)) {
-         alert("Please Enter Valid Number");
+         toast.error("Please Enter Valid Number");
          return;
       }
 
       if (error == "error") {
-         console.log(error);
-         alert("Confirm Password and Password are not same");
+         toast.error("Confirm Password and Password are not same");
          return;
       }
 
-      console.log("checking");
 
       const payload = {
          name: fieldValue.name,

@@ -8,12 +8,18 @@ import Register from "./pages/RegisterUser";
 import Home from "./pages/Home";
 import Specialists from "./pages/Specialists";
 import Login from "./pages/Login";
-// import PatientDashboard from "./components/Dashboard/PatientDashboard/PatientDashboard";
+import PatientDashboard from "./components/Dashboard/patient/PatientDashboard";
 
 import Protected from "./utils/Protected";
-import DashboardHome from "./components/Dashboard/DashboardHome";
+import DashboardHome from "./components/Dashboard/dcotor/DashboardHome";
 import DashboardLayout from "./pages/DashboardLayout";
-import ManageSlots from "./components/Dashboard/ManageSlots";
+import ManageSlots from "./components/Dashboard/dcotor/ManageSlots";
+import ProtectedHome from "./utils/ProtectedHome";
+
+import FindDoctor from "./components/Dashboard/patient/FindDoctor";
+import PatientAppointment from "./components/Dashboard/patient/patientAppointment";
+import Appointments from "./components/Dashboard/dcotor/Appointments";
+import Update from "./components/Dashboard/patient/Update";
 
 function App() {
    return (
@@ -32,10 +38,36 @@ function App() {
 
             <Route element={<Protected />}>
                <Route path="/dashboard" element={<DashboardLayout />}>
-                  <Route path="/dashboard/patient" element={<h1>Patient</h1>} />
-                  <Route path="/dashboard/doctor">
-                     <Route path="/dashboard/doctor/home" element={<DashboardHome /> }/>
-                     <Route path="/dashboard/doctor/manage-slots" element={<ManageSlots /> }/>
+                  {/* patient */}
+                  <Route path="/dashboard/patient">
+                     <Route
+                        path="/dashboard/patient/home"
+                        element={<PatientDashboard />}
+                     />
+                     <Route
+                        path="/dashboard/patient/find-doctors"
+                        element={<FindDoctor />}
+                     />
+                     <Route
+                        path="/dashboard/patient/my-appointments"
+                        element={<PatientAppointment />}
+                     />
+
+                     <Route path={`/dashboard/patient/update-profile/:id`} element={<Update/>}/>
+                  </Route>
+
+                  {/* doctor */}
+                  <Route path="/dashboard/doctor" element={<ProtectedHome />}>
+                     <Route
+                        path="/dashboard/doctor/home"
+                        element={<DashboardHome />}
+                     />
+                     <Route
+                        path="/dashboard/doctor/manage-slots"
+                        element={<ManageSlots />}
+                     />
+
+                     <Route path="/dashboard/doctor/appointments" element={<Appointments/>}/>
                   </Route>
                </Route>
             </Route>

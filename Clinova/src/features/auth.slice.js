@@ -6,6 +6,7 @@ const savedUser = localStorage.getItem("currentUser");
 const initialState = {
    currentUser: savedUser ? JSON.parse(savedUser) : null,
    doctors: [],
+   patient: [],
    loading: false,
    error: null,
    errorMsg: "",
@@ -17,6 +18,21 @@ export const fetchDoctors = createAsyncThunk(
       try {
          const response = await axios.get(
             "http://localhost:3001/users?role=doctor",
+         );
+
+         return response.data;
+      } catch (error) {
+         return rejectWithValue("Error: " + error.message);
+      }
+   },
+);
+
+export const fetchPatient = createAsyncThunk(
+   "user/fetchPatient",
+   async (_, { rejectWithValue }) => {
+      try {
+         const response = await axios.get(
+            "http://localhost:3001/users?role=patient",
          );
 
          return response.data;
@@ -45,6 +61,24 @@ export const createUser = createAsyncThunk(
          return rejectWithValue("Email is connected with another account!");
       } catch (error) {
          return rejectWithValue("Error: " + error.message);
+      }
+   },
+);
+
+export const updateUser = createAsyncThunk(
+   "user/updateUser",
+   async ({ id, name, email, mNumber, location }, { rejectWithValue }) => {
+      try {
+         let res = await axios.patch(`http://localhost:3001/users/${id}`, {
+            name,
+            email,
+            mNumber,
+            location,
+         });
+
+         return res.data;
+      } catch (error) {
+         return rejectWithValue("Error:- ", error.message);
       }
    },
 );
@@ -98,6 +132,19 @@ const authSlice = createSlice({
             state.loading = false;
             state.error = action.payload;
          })
+         .addCase(fetchPatient.pending, (state) => {
+            state.loading = true;
+            state.error = "";
+         })
+         .addCase(fetchPatient.fulfilled, (state, action) => {
+            state.loading = false;
+            state.error = false;
+            state.patient = action.payload;
+         })
+         .addCase(fetchPatient.rejected, (state, action) => {
+            state.loading = false;
+            state.error = action.payload;
+         })
          .addCase(createUser.pending, (state) => {
             state.loading = true;
             state.error = false;
@@ -130,6 +177,24 @@ const authSlice = createSlice({
             state.currentUser = action.payload;
 
             localStorage.setItem("currentUser", JSON.stringify(action.payload));
+         })
+         .addCase(updateUser.pending, (state) => {
+            state.loading = true;
+            state.error = false;
+            state.errorMsg = "";
+         })
+         .addCase(updateUser.fulfilled, (state, action) => {
+            state.loading = false;
+            state.error = false;
+            state.errorMsg = "";
+            state.currentUser = action.payload;
+
+            localStorage.setItem("currentUser", JSON.stringify(action.payload));
+         })
+         .addCase(updateUser.rejected, (state, action) => {
+            state.loading = false;
+            state.error = true;
+            state.errorMsg = action.payload;
          });
    },
 });

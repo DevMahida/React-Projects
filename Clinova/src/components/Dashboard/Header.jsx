@@ -18,9 +18,11 @@ function Header() {
 
    return (
       <>
-         <header className="bg-cs-primary Header border-bottom border-dark">
+         <header className="bg-cs-primary Header position-sticky top-0 border-bottom border-dark z-3">
             {/* profile */}
             <div className="dropdown text-end">
+               
+               {/* icon */}
                <span
                   className="d-inline-block"
                   data-bs-toggle="dropdown"
@@ -36,15 +38,12 @@ function Header() {
                      alt="user picture"
                   />
                </span>
+               
+               {/* modal */}
                <ul className="dropdown-menu p-1">
-                  <li className="p-1 border-bottom">
-                     <a className="dropdown-item" href="#">
-                        Profile Settings
-                     </a>
-                  </li>
                   <li className="p-1">
                      <button
-                        className="dropdown-item logoutBtn rounded-2"
+                        className="dropdown-item cs-btn logoutBtn rounded-2"
                         onClick={handleLogout}
                      >
                         <i className="ri-logout-box-r-line text-danger fs-5"></i>

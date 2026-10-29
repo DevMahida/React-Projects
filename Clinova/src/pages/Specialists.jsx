@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchDoctors } from "../features/auth.slice";
 import Header from "../components/home/Header";
@@ -8,7 +8,7 @@ import DoctorList from "../components/home/DoctorList";
 function Specialists() {
 
    const dispatch = useDispatch();
-   const { doctors } = useSelector((state) => state.user);
+   const { doctors } = useSelector((state) => state.user);   
    
    useEffect(() => {
       document.title = "Top Specialists"

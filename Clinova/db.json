@@ -1,7 +1,7 @@
 {
   "users": [
     {
-      "name": "Dev Mahida",
+      "name": "Dev  Mahida",
       "email": "devmahida340@gmail.com",
       "mNumber": "9313059290",
       "location": "Vesu, Surat, Gujarat",
@@ -48,38 +48,7 @@
       "image": "https://randomuser.me/api/portraits/men/32.jpg",
       "location": "Bengaluru, Karnataka",
       "qualification": "MBBS, MD",
-      "specialization": "Cardiologist",
-      "availableDays": [
-        "Monday",
-        "Tuesday",
-        "Thursday",
-        "Saturday"
-      ],
-      "availableSlots": {
-        "Monday": [
-          "09:00",
-          "09:30",
-          "10:00",
-          "10:30"
-        ],
-        "Saturday": [
-          "10:00",
-          "10:30",
-          "11:00",
-          "11:30"
-        ],
-        "Thursday": [
-          "09:00",
-          "09:30",
-          "10:00"
-        ],
-        "Tuesday": [
-          "14:00",
-          "14:30",
-          "15:00",
-          "15:30"
-        ]
-      }
+      "specialization": "Cardiologist"
     },
     {
       "id": "DOC002",
@@ -93,32 +62,7 @@
       "image": "https://randomuser.me/api/portraits/women/44.jpg",
       "location": "Mumbai, Maharashtra",
       "qualification": "MBBS, MD ",
-      "specialization": "Dermatologist",
-      "availableDays": [
-        "Monday",
-        "Wednesday",
-        "Friday"
-      ],
-      "availableSlots": {
-        "Friday": [
-          "10:00",
-          "10:30",
-          "11:00",
-          "11:30"
-        ],
-        "Monday": [
-          "10:00",
-          "10:30",
-          "11:00",
-          "11:30"
-        ],
-        "Wednesday": [
-          "14:00",
-          "14:30",
-          "15:00",
-          "15:30"
-        ]
-      }
+      "specialization": "Dermatologist"
     },
     {
       "id": "DOC003",
@@ -132,38 +76,7 @@
       "image": "https://randomuser.me/api/portraits/men/46.jpg",
       "location": "Delhi",
       "qualification": "MBBS, MS",
-      "specialization": "Orthopedic",
-      "availableDays": [
-        "Tuesday",
-        "Wednesday",
-        "Friday",
-        "Saturday"
-      ],
-      "availableSlots": {
-        "Friday": [
-          "09:00",
-          "09:30",
-          "10:00"
-        ],
-        "Saturday": [
-          "11:00",
-          "11:30",
-          "12:00",
-          "12:30"
-        ],
-        "Tuesday": [
-          "09:00",
-          "09:30",
-          "10:00",
-          "10:30"
-        ],
-        "Wednesday": [
-          "16:00",
-          "16:30",
-          "17:00",
-          "17:30"
-        ]
-      }
+      "specialization": "Orthopedic"
     },
     {
       "id": "DOC004",
@@ -177,38 +90,7 @@
       "image": "https://randomuser.me/api/portraits/women/68.jpg",
       "location": "Pune, Maharashtra",
       "qualification": "MBBS, MD",
-      "specialization": "Pediatrician",
-      "availableDays": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Friday"
-      ],
-      "availableSlots": {
-        "Friday": [
-          "14:00",
-          "14:30",
-          "15:00",
-          "15:30"
-        ],
-        "Monday": [
-          "09:00",
-          "09:30",
-          "10:00",
-          "10:30"
-        ],
-        "Tuesday": [
-          "15:00",
-          "15:30",
-          "16:00",
-          "16:30"
-        ],
-        "Wednesday": [
-          "09:00",
-          "09:30",
-          "10:00"
-        ]
-      }
+      "specialization": "Pediatrician"
     },
     {
       "id": "DOC005",
@@ -222,32 +104,7 @@
       "image": "https://randomuser.me/api/portraits/men/52.jpg",
       "location": "Hyderabad, Telangana",
       "qualification": "MBBS, MD, DM",
-      "specialization": "Neurologist",
-      "availableDays": [
-        "Monday",
-        "Thursday",
-        "Saturday"
-      ],
-      "availableSlots": {
-        "Monday": [
-          "11:00",
-          "11:30",
-          "12:00",
-          "12:30"
-        ],
-        "Saturday": [
-          "09:00",
-          "09:30",
-          "10:00",
-          "10:30"
-        ],
-        "Thursday": [
-          "15:00",
-          "15:30",
-          "16:00",
-          "16:30"
-        ]
-      }
+      "specialization": "Neurologist"
     },
     {
       "id": "DOC006",
@@ -261,37 +118,7 @@
       "image": "https://randomuser.me/api/portraits/women/65.jpg",
       "location": "Chennai, Tamil Nadu",
       "qualification": "MBBS, MS",
-      "specialization": "Gynecologist",
-      "availableDays": [
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Saturday"
-      ],
-      "availableSlots": {
-        "Saturday": [
-          "15:00",
-          "15:30",
-          "16:00"
-        ],
-        "Thursday": [
-          "10:00",
-          "10:30",
-          "11:00",
-          "11:30"
-        ],
-        "Tuesday": [
-          "10:00",
-          "10:30",
-          "11:00",
-          "11:30"
-        ],
-        "Wednesday": [
-          "14:00",
-          "14:30",
-          "15:00"
-        ]
-      }
+      "specialization": "Gynecologist"
     },
     {
       "id": "DOC007",
@@ -305,37 +132,7 @@
       "image": "https://randomuser.me/api/portraits/men/61.jpg",
       "location": "Chandigarh",
       "qualification": "MBBS, MS",
-      "specialization": "ENT Specialist",
-      "availableDays": [
-        "Monday",
-        "Wednesday",
-        "Friday",
-        "Saturday"
-      ],
-      "availableSlots": {
-        "Friday": [
-          "09:00",
-          "09:30",
-          "10:00",
-          "10:30"
-        ],
-        "Monday": [
-          "09:00",
-          "09:30",
-          "10:00"
-        ],
-        "Saturday": [
-          "11:00",
-          "11:30",
-          "12:00"
-        ],
-        "Wednesday": [
-          "14:00",
-          "14:30",
-          "15:00",
-          "15:30"
-        ]
-      }
+      "specialization": "ENT Specialist"
     },
     {
       "id": "DOC008",
@@ -349,37 +146,7 @@
       "image": "https://randomuser.me/api/portraits/women/49.jpg",
       "location": "Hyderabad, Telangana",
       "qualification": "BDS, MDS",
-      "specialization": "Dentist",
-      "availableDays": [
-        "Monday",
-        "Tuesday",
-        "Thursday",
-        "Friday"
-      ],
-      "availableSlots": {
-        "Friday": [
-          "14:00",
-          "14:30",
-          "15:00",
-          "15:30"
-        ],
-        "Monday": [
-          "10:00",
-          "10:30",
-          "11:00",
-          "11:30"
-        ],
-        "Thursday": [
-          "10:00",
-          "10:30",
-          "11:00"
-        ],
-        "Tuesday": [
-          "15:00",
-          "15:30",
-          "16:00"
-        ]
-      }
+      "specialization": "Dentist"
     },
     {
       "id": "DOC009",
@@ -393,43 +160,7 @@
       "image": "https://randomuser.me/api/portraits/men/75.jpg",
       "location": "Ahmedabad, Gujarat",
       "qualification": "MBBS, MD",
-      "specialization": "General Physician",
-      "availableDays": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday"
-      ],
-      "availableSlots": {
-        "Friday": [
-          "09:00",
-          "09:30",
-          "10:00"
-        ],
-        "Monday": [
-          "09:00",
-          "09:30",
-          "10:00",
-          "10:30"
-        ],
-        "Thursday": [
-          "14:00",
-          "14:30",
-          "15:00",
-          "15:30"
-        ],
-        "Tuesday": [
-          "14:00",
-          "14:30",
-          "15:00"
-        ],
-        "Wednesday": [
-          "09:00",
-          "09:30",
-          "10:00"
-        ]
-      }
+      "specialization": "General Physician"
     },
     {
       "id": "DOC010",
@@ -443,37 +174,7 @@
       "image": "https://randomuser.me/api/portraits/women/50.jpg",
       "location": "Kochi, Kerala",
       "qualification": "MBBS, MD",
-      "specialization": "Psychiatrist",
-      "availableDays": [
-        "Monday",
-        "Wednesday",
-        "Thursday",
-        "Saturday"
-      ],
-      "availableSlots": {
-        "Monday": [
-          "11:00",
-          "11:30",
-          "12:00"
-        ],
-        "Saturday": [
-          "10:00",
-          "10:30",
-          "11:00"
-        ],
-        "Thursday": [
-          "11:00",
-          "11:30",
-          "12:00",
-          "12:30"
-        ],
-        "Wednesday": [
-          "15:00",
-          "15:30",
-          "16:00",
-          "16:30"
-        ]
-      }
+      "specialization": "Psychiatrist"
     },
     {
       "id": "DOC011",
@@ -487,37 +188,7 @@
       "image": "https://randomuser.me/api/portraits/men/64.jpg",
       "location": "Surat, Gujarat",
       "qualification": "MBBS, MS",
-      "specialization": "Ophthalmologist",
-      "availableDays": [
-        "Tuesday",
-        "Thursday",
-        "Friday",
-        "Saturday"
-      ],
-      "availableSlots": {
-        "Friday": [
-          "09:00",
-          "09:30",
-          "10:00"
-        ],
-        "Saturday": [
-          "11:00",
-          "11:30",
-          "12:00",
-          "12:30"
-        ],
-        "Thursday": [
-          "14:00",
-          "14:30",
-          "15:00"
-        ],
-        "Tuesday": [
-          "09:00",
-          "09:30",
-          "10:00",
-          "10:30"
-        ]
-      }
+      "specialization": "Ophthalmologist"
     },
     {
       "id": "DOC012",
@@ -531,30 +202,7 @@
       "image": "https://randomuser.me/api/portraits/women/45.jpg",
       "location": "Bengaluru, Karnataka",
       "qualification": "MBBS, MD, DM",
-      "specialization": "Endocrinologist",
-      "availableDays": [
-        "Monday",
-        "Tuesday",
-        "Thursday"
-      ],
-      "availableSlots": {
-        "Monday": [
-          "10:00",
-          "10:30",
-          "11:00",
-          "11:30"
-        ],
-        "Thursday": [
-          "10:00",
-          "10:30",
-          "11:00"
-        ],
-        "Tuesday": [
-          "15:00",
-          "15:30",
-          "16:00"
-        ]
-      }
+      "specialization": "Endocrinologist"
     },
     {
       "id": "DOC013",
@@ -568,31 +216,7 @@
       "image": "https://randomuser.me/api/portraits/men/71.jpg",
       "location": "Jaipur, Rajasthan",
       "qualification": "MBBS, MD ",
-      "specialization": "Pulmonologist",
-      "availableDays": [
-        "Monday",
-        "Wednesday",
-        "Friday"
-      ],
-      "availableSlots": {
-        "Friday": [
-          "10:00",
-          "10:30",
-          "11:00"
-        ],
-        "Monday": [
-          "09:00",
-          "09:30",
-          "10:00",
-          "10:30"
-        ],
-        "Wednesday": [
-          "14:00",
-          "14:30",
-          "15:00",
-          "15:30"
-        ]
-      }
+      "specialization": "Pulmonologist"
     },
     {
       "id": "DOC014",
@@ -606,37 +230,7 @@
       "image": "https://randomuser.me/api/portraits/women/63.jpg",
       "location": "Kolkata, West Bengal",
       "qualification": "MBBS, MD, DM",
-      "specialization": "Gastroenterologist",
-      "availableDays": [
-        "Tuesday",
-        "Wednesday",
-        "Friday",
-        "Saturday"
-      ],
-      "availableSlots": {
-        "Friday": [
-          "10:00",
-          "10:30",
-          "11:00",
-          "11:30"
-        ],
-        "Saturday": [
-          "09:00",
-          "09:30",
-          "10:00"
-        ],
-        "Tuesday": [
-          "10:00",
-          "10:30",
-          "11:00"
-        ],
-        "Wednesday": [
-          "15:00",
-          "15:30",
-          "16:00",
-          "16:30"
-        ]
-      }
+      "specialization": "Gastroenterologist"
     },
     {
       "id": "DOC015",
@@ -650,50 +244,1013 @@
       "image": "https://randomuser.me/api/portraits/men/39.jpg",
       "location": "Lucknow, Uttar Pradesh",
       "qualification": "MBBS, MS, MCh",
-      "specialization": "Urologist",
-      "availableDays": [
-        "Monday",
-        "Thursday",
-        "Friday",
-        "Saturday"
-      ],
-      "availableSlots": {
-        "Friday": [
-          "14:00",
-          "14:30",
-          "15:00"
-        ],
-        "Monday": [
-          "14:00",
-          "14:30",
-          "15:00",
-          "15:30"
-        ],
-        "Saturday": [
-          "10:00",
-          "10:30",
-          "11:00",
-          "11:30"
-        ],
-        "Thursday": [
-          "09:00",
-          "09:30",
-          "10:00"
-        ]
-      }
+      "specialization": "Urologist"
+    },
+    {
+      "name": "Aarav Patel",
+      "email": "aarav.patel@example.com",
+      "mNumber": "9000000005",
+      "location": "Vesu, Surat, Gujarat",
+      "password": "Demo@2026!",
+      "role": "patient",
+      "id": "PAT005"
+    },
+    {
+      "name": "Mira Shah",
+      "email": "mira.shah@example.com",
+      "mNumber": "9000000006",
+      "location": "Adajan, Surat, Gujarat",
+      "password": "Demo@2026!",
+      "role": "patient",
+      "id": "PAT006"
+    },
+    {
+      "name": "Rohan Patel",
+      "email": "rohan.patel@example.com",
+      "mNumber": "9000000007",
+      "location": "City Light, Surat, Gujarat",
+      "password": "Demo@2026!",
+      "role": "patient",
+      "id": "PAT007"
+    },
+    {
+      "name": "Anaya Joshi",
+      "email": "anaya.joshi@example.com",
+      "mNumber": "9000000008",
+      "location": "Pal, Surat, Gujarat",
+      "password": "Demo@2026!",
+      "role": "patient",
+      "id": "PAT008"
+    },
+    {
+      "name": "Kunal Mehta",
+      "email": "kunal.mehta@example.com",
+      "mNumber": "9000000009",
+      "location": "Vesu, Surat, Gujarat",
+      "password": "Demo@2026!",
+      "role": "patient",
+      "id": "PAT009"
+    },
+    {
+      "name": "Isha Trivedi",
+      "email": "isha.trivedi@example.com",
+      "mNumber": "9000000010",
+      "location": "Adajan, Surat, Gujarat",
+      "password": "Demo@2026!",
+      "role": "patient",
+      "id": "PAT010"
     }
   ],
   "slots": [
     {
       "doc_id": "DOC001",
-      "date": "2026-10-13",
+      "date": "2026-11-13",
       "Stime": "16:20",
-      "Etime": "17:18",
-      "available": true,
+      "Etime": "17:20",
+      "available": false,
       "id": "XrcKBF52_j8"
+    },
+    {
+      "doc_id": "DOC001",
+      "date": "2026-11-10",
+      "Stime": "10:00",
+      "Etime": "11:00",
+      "available": false,
+      "id": "SLOT-DOC001-20261110-1000"
+    },
+    {
+      "doc_id": "DOC001",
+      "date": "2026-11-10",
+      "Stime": "11:00",
+      "Etime": "12:00",
+      "available": false,
+      "id": "SLOT-DOC001-20261110-1100"
+    },
+    {
+      "doc_id": "DOC001",
+      "date": "2026-11-12",
+      "Stime": "09:00",
+      "Etime": "10:00",
+      "available": true,
+      "id": "SLOT-DOC001-20261112-0900"
+    },
+    {
+      "doc_id": "DOC002",
+      "date": "2026-11-12",
+      "Stime": "10:00",
+      "Etime": "11:00",
+      "available": true,
+      "id": "SLOT-DOC002-20261112-1000"
+    },
+    {
+      "doc_id": "DOC002",
+      "date": "2026-11-12",
+      "Stime": "11:00",
+      "Etime": "12:00",
+      "available": true,
+      "id": "SLOT-DOC002-20261112-1100"
+    },
+    {
+      "doc_id": "DOC002",
+      "date": "2026-11-14",
+      "Stime": "14:00",
+      "Etime": "15:00",
+      "available": true,
+      "id": "SLOT-DOC002-20261114-1400"
+    },
+    {
+      "doc_id": "DOC002",
+      "date": "2026-11-14",
+      "Stime": "15:00",
+      "Etime": "16:00",
+      "available": true,
+      "id": "SLOT-DOC002-20261114-1500"
+    },
+    {
+      "doc_id": "DOC002",
+      "date": "2026-11-16",
+      "Stime": "10:00",
+      "Etime": "11:00",
+      "available": true,
+      "id": "SLOT-DOC002-20261116-1000"
+    },
+    {
+      "doc_id": "DOC003",
+      "date": "2026-11-10",
+      "Stime": "11:00",
+      "Etime": "12:00",
+      "available": true,
+      "id": "SLOT-DOC003-20261110-1100"
+    },
+    {
+      "doc_id": "DOC003",
+      "date": "2026-11-10",
+      "Stime": "12:00",
+      "Etime": "13:00",
+      "available": true,
+      "id": "SLOT-DOC003-20261110-1200"
+    },
+    {
+      "doc_id": "DOC003",
+      "date": "2026-11-13",
+      "Stime": "09:00",
+      "Etime": "10:00",
+      "available": true,
+      "id": "SLOT-DOC003-20261113-0900"
+    },
+    {
+      "doc_id": "DOC003",
+      "date": "2026-11-13",
+      "Stime": "10:00",
+      "Etime": "11:00",
+      "available": true,
+      "id": "SLOT-DOC003-20261113-1000"
+    },
+    {
+      "doc_id": "DOC003",
+      "date": "2026-11-14",
+      "Stime": "16:00",
+      "Etime": "17:00",
+      "available": true,
+      "id": "SLOT-DOC003-20261114-1600"
+    },
+    {
+      "doc_id": "DOC004",
+      "date": "2026-11-12",
+      "Stime": "09:00",
+      "Etime": "10:00",
+      "available": true,
+      "id": "SLOT-DOC004-20261112-0900"
+    },
+    {
+      "doc_id": "DOC004",
+      "date": "2026-11-12",
+      "Stime": "10:00",
+      "Etime": "11:00",
+      "available": true,
+      "id": "SLOT-DOC004-20261112-1000"
+    },
+    {
+      "doc_id": "DOC004",
+      "date": "2026-11-13",
+      "Stime": "15:00",
+      "Etime": "16:00",
+      "available": true,
+      "id": "SLOT-DOC004-20261113-1500"
+    },
+    {
+      "doc_id": "DOC004",
+      "date": "2026-11-13",
+      "Stime": "16:00",
+      "Etime": "17:00",
+      "available": true,
+      "id": "SLOT-DOC004-20261113-1600"
+    },
+    {
+      "doc_id": "DOC004",
+      "date": "2026-11-14",
+      "Stime": "09:00",
+      "Etime": "10:00",
+      "available": true,
+      "id": "SLOT-DOC004-20261114-0900"
+    },
+    {
+      "doc_id": "DOC005",
+      "date": "2026-11-10",
+      "Stime": "09:00",
+      "Etime": "10:00",
+      "available": true,
+      "id": "SLOT-DOC005-20261110-0900"
+    },
+    {
+      "doc_id": "DOC005",
+      "date": "2026-11-10",
+      "Stime": "10:00",
+      "Etime": "11:00",
+      "available": true,
+      "id": "SLOT-DOC005-20261110-1000"
+    },
+    {
+      "doc_id": "DOC005",
+      "date": "2026-11-12",
+      "Stime": "11:00",
+      "Etime": "12:00",
+      "available": true,
+      "id": "SLOT-DOC005-20261112-1100"
+    },
+    {
+      "doc_id": "DOC005",
+      "date": "2026-11-12",
+      "Stime": "12:00",
+      "Etime": "13:00",
+      "available": true,
+      "id": "SLOT-DOC005-20261112-1200"
+    },
+    {
+      "doc_id": "DOC005",
+      "date": "2026-11-15",
+      "Stime": "15:00",
+      "Etime": "16:00",
+      "available": true,
+      "id": "SLOT-DOC005-20261115-1500"
+    },
+    {
+      "doc_id": "DOC006",
+      "date": "2026-11-10",
+      "Stime": "15:00",
+      "Etime": "16:00",
+      "available": true,
+      "id": "SLOT-DOC006-20261110-1500"
+    },
+    {
+      "doc_id": "DOC006",
+      "date": "2026-11-10",
+      "Stime": "16:00",
+      "Etime": "17:00",
+      "available": true,
+      "id": "SLOT-DOC006-20261110-1600"
+    },
+    {
+      "doc_id": "DOC006",
+      "date": "2026-11-13",
+      "Stime": "10:00",
+      "Etime": "11:00",
+      "available": true,
+      "id": "SLOT-DOC006-20261113-1000"
+    },
+    {
+      "doc_id": "DOC006",
+      "date": "2026-11-13",
+      "Stime": "11:00",
+      "Etime": "12:00",
+      "available": true,
+      "id": "SLOT-DOC006-20261113-1100"
+    },
+    {
+      "doc_id": "DOC006",
+      "date": "2026-11-14",
+      "Stime": "14:00",
+      "Etime": "15:00",
+      "available": true,
+      "id": "SLOT-DOC006-20261114-1400"
+    },
+    {
+      "doc_id": "DOC007",
+      "date": "2026-11-10",
+      "Stime": "11:00",
+      "Etime": "12:00",
+      "available": true,
+      "id": "SLOT-DOC007-20261110-1100"
+    },
+    {
+      "doc_id": "DOC007",
+      "date": "2026-11-10",
+      "Stime": "12:00",
+      "Etime": "13:00",
+      "available": true,
+      "id": "SLOT-DOC007-20261110-1200"
+    },
+    {
+      "doc_id": "DOC007",
+      "date": "2026-11-12",
+      "Stime": "09:00",
+      "Etime": "10:00",
+      "available": true,
+      "id": "SLOT-DOC007-20261112-0900"
+    },
+    {
+      "doc_id": "DOC007",
+      "date": "2026-11-12",
+      "Stime": "10:00",
+      "Etime": "11:00",
+      "available": true,
+      "id": "SLOT-DOC007-20261112-1000"
+    },
+    {
+      "doc_id": "DOC007",
+      "date": "2026-11-14",
+      "Stime": "14:00",
+      "Etime": "15:00",
+      "available": true,
+      "id": "SLOT-DOC007-20261114-1400"
+    },
+    {
+      "doc_id": "DOC008",
+      "date": "2026-11-12",
+      "Stime": "10:00",
+      "Etime": "11:00",
+      "available": true,
+      "id": "SLOT-DOC008-20261112-1000"
+    },
+    {
+      "doc_id": "DOC008",
+      "date": "2026-11-12",
+      "Stime": "11:00",
+      "Etime": "12:00",
+      "available": true,
+      "id": "SLOT-DOC008-20261112-1100"
+    },
+    {
+      "doc_id": "DOC008",
+      "date": "2026-11-13",
+      "Stime": "15:00",
+      "Etime": "16:00",
+      "available": true,
+      "id": "SLOT-DOC008-20261113-1500"
+    },
+    {
+      "doc_id": "DOC008",
+      "date": "2026-11-13",
+      "Stime": "16:00",
+      "Etime": "17:00",
+      "available": false,
+      "id": "SLOT-DOC008-20261113-1600"
+    },
+    {
+      "doc_id": "DOC008",
+      "date": "2026-11-15",
+      "Stime": "10:00",
+      "Etime": "11:00",
+      "available": true,
+      "id": "SLOT-DOC008-20261115-1000"
+    },
+    {
+      "doc_id": "DOC009",
+      "date": "2026-11-12",
+      "Stime": "09:00",
+      "Etime": "10:00",
+      "available": true,
+      "id": "SLOT-DOC009-20261112-0900"
+    },
+    {
+      "doc_id": "DOC009",
+      "date": "2026-11-12",
+      "Stime": "10:00",
+      "Etime": "11:00",
+      "available": true,
+      "id": "SLOT-DOC009-20261112-1000"
+    },
+    {
+      "doc_id": "DOC009",
+      "date": "2026-11-13",
+      "Stime": "14:00",
+      "Etime": "15:00",
+      "available": true,
+      "id": "SLOT-DOC009-20261113-1400"
+    },
+    {
+      "doc_id": "DOC009",
+      "date": "2026-11-13",
+      "Stime": "15:00",
+      "Etime": "16:00",
+      "available": true,
+      "id": "SLOT-DOC009-20261113-1500"
+    },
+    {
+      "doc_id": "DOC009",
+      "date": "2026-11-14",
+      "Stime": "09:00",
+      "Etime": "10:00",
+      "available": true,
+      "id": "SLOT-DOC009-20261114-0900"
+    },
+    {
+      "doc_id": "DOC010",
+      "date": "2026-11-10",
+      "Stime": "10:00",
+      "Etime": "11:00",
+      "available": true,
+      "id": "SLOT-DOC010-20261110-1000"
+    },
+    {
+      "doc_id": "DOC010",
+      "date": "2026-11-10",
+      "Stime": "11:00",
+      "Etime": "12:00",
+      "available": true,
+      "id": "SLOT-DOC010-20261110-1100"
+    },
+    {
+      "doc_id": "DOC010",
+      "date": "2026-11-12",
+      "Stime": "11:00",
+      "Etime": "12:00",
+      "available": true,
+      "id": "SLOT-DOC010-20261112-1100"
+    },
+    {
+      "doc_id": "DOC010",
+      "date": "2026-11-12",
+      "Stime": "12:00",
+      "Etime": "13:00",
+      "available": true,
+      "id": "SLOT-DOC010-20261112-1200"
+    },
+    {
+      "doc_id": "DOC010",
+      "date": "2026-11-14",
+      "Stime": "15:00",
+      "Etime": "16:00",
+      "available": true,
+      "id": "SLOT-DOC010-20261114-1500"
+    },
+    {
+      "doc_id": "DOC011",
+      "date": "2026-11-10",
+      "Stime": "11:00",
+      "Etime": "12:00",
+      "available": true,
+      "id": "SLOT-DOC011-20261110-1100"
+    },
+    {
+      "doc_id": "DOC011",
+      "date": "2026-11-10",
+      "Stime": "12:00",
+      "Etime": "13:00",
+      "available": true,
+      "id": "SLOT-DOC011-20261110-1200"
+    },
+    {
+      "doc_id": "DOC011",
+      "date": "2026-11-13",
+      "Stime": "09:00",
+      "Etime": "10:00",
+      "available": true,
+      "id": "SLOT-DOC011-20261113-0900"
+    },
+    {
+      "doc_id": "DOC011",
+      "date": "2026-11-13",
+      "Stime": "10:00",
+      "Etime": "11:00",
+      "available": true,
+      "id": "SLOT-DOC011-20261113-1000"
+    },
+    {
+      "doc_id": "DOC011",
+      "date": "2026-11-15",
+      "Stime": "14:00",
+      "Etime": "15:00",
+      "available": true,
+      "id": "SLOT-DOC011-20261115-1400"
+    },
+    {
+      "doc_id": "DOC012",
+      "date": "2026-11-12",
+      "Stime": "10:00",
+      "Etime": "11:00",
+      "available": true,
+      "id": "SLOT-DOC012-20261112-1000"
+    },
+    {
+      "doc_id": "DOC012",
+      "date": "2026-11-12",
+      "Stime": "11:00",
+      "Etime": "12:00",
+      "available": true,
+      "id": "SLOT-DOC012-20261112-1100"
+    },
+    {
+      "doc_id": "DOC012",
+      "date": "2026-11-13",
+      "Stime": "15:00",
+      "Etime": "16:00",
+      "available": true,
+      "id": "SLOT-DOC012-20261113-1500"
+    },
+    {
+      "doc_id": "DOC012",
+      "date": "2026-11-13",
+      "Stime": "16:00",
+      "Etime": "17:00",
+      "available": true,
+      "id": "SLOT-DOC012-20261113-1600"
+    },
+    {
+      "doc_id": "DOC012",
+      "date": "2026-11-15",
+      "Stime": "10:00",
+      "Etime": "11:00",
+      "available": true,
+      "id": "SLOT-DOC012-20261115-1000"
+    },
+    {
+      "doc_id": "DOC013",
+      "date": "2026-11-12",
+      "Stime": "09:00",
+      "Etime": "10:00",
+      "available": true,
+      "id": "SLOT-DOC013-20261112-0900"
+    },
+    {
+      "doc_id": "DOC013",
+      "date": "2026-11-12",
+      "Stime": "10:00",
+      "Etime": "11:00",
+      "available": true,
+      "id": "SLOT-DOC013-20261112-1000"
+    },
+    {
+      "doc_id": "DOC013",
+      "date": "2026-11-14",
+      "Stime": "14:00",
+      "Etime": "15:00",
+      "available": true,
+      "id": "SLOT-DOC013-20261114-1400"
+    },
+    {
+      "doc_id": "DOC013",
+      "date": "2026-11-14",
+      "Stime": "15:00",
+      "Etime": "16:00",
+      "available": true,
+      "id": "SLOT-DOC013-20261114-1500"
+    },
+    {
+      "doc_id": "DOC013",
+      "date": "2026-11-16",
+      "Stime": "10:00",
+      "Etime": "11:00",
+      "available": true,
+      "id": "SLOT-DOC013-20261116-1000"
+    },
+    {
+      "doc_id": "DOC014",
+      "date": "2026-11-10",
+      "Stime": "09:00",
+      "Etime": "10:00",
+      "available": true,
+      "id": "SLOT-DOC014-20261110-0900"
+    },
+    {
+      "doc_id": "DOC014",
+      "date": "2026-11-10",
+      "Stime": "10:00",
+      "Etime": "11:00",
+      "available": true,
+      "id": "SLOT-DOC014-20261110-1000"
+    },
+    {
+      "doc_id": "DOC014",
+      "date": "2026-11-13",
+      "Stime": "10:00",
+      "Etime": "11:00",
+      "available": true,
+      "id": "SLOT-DOC014-20261113-1000"
+    },
+    {
+      "doc_id": "DOC014",
+      "date": "2026-11-13",
+      "Stime": "11:00",
+      "Etime": "12:00",
+      "available": true,
+      "id": "SLOT-DOC014-20261113-1100"
+    },
+    {
+      "doc_id": "DOC014",
+      "date": "2026-11-14",
+      "Stime": "15:00",
+      "Etime": "16:00",
+      "available": true,
+      "id": "SLOT-DOC014-20261114-1500"
+    },
+    {
+      "doc_id": "DOC015",
+      "date": "2026-11-10",
+      "Stime": "10:00",
+      "Etime": "11:00",
+      "available": true,
+      "id": "SLOT-DOC015-20261110-1000"
+    },
+    {
+      "doc_id": "DOC015",
+      "date": "2026-11-10",
+      "Stime": "11:00",
+      "Etime": "12:00",
+      "available": true,
+      "id": "SLOT-DOC015-20261110-1100"
+    },
+    {
+      "doc_id": "DOC015",
+      "date": "2026-11-12",
+      "Stime": "14:00",
+      "Etime": "15:00",
+      "available": true,
+      "id": "SLOT-DOC015-20261112-1400"
+    },
+    {
+      "doc_id": "DOC015",
+      "date": "2026-11-12",
+      "Stime": "15:00",
+      "Etime": "16:00",
+      "available": true,
+      "id": "SLOT-DOC015-20261112-1500"
+    },
+    {
+      "doc_id": "DOC015",
+      "date": "2026-11-15",
+      "Stime": "09:00",
+      "Etime": "10:00",
+      "available": true,
+      "id": "SLOT-DOC015-20261115-0900"
+    },
+    {
+      "doc_id": "DOC001",
+      "date": "2026-11-18",
+      "Stime": "09:00",
+      "Etime": "10:00",
+      "available": true,
+      "id": "SLOT-DOC001-20261118-0900"
+    },
+    {
+      "doc_id": "DOC001",
+      "date": "2026-11-19",
+      "Stime": "10:00",
+      "Etime": "11:00",
+      "available": true,
+      "id": "SLOT-DOC001-20261119-1000"
+    },
+    {
+      "doc_id": "DOC002",
+      "date": "2026-11-18",
+      "Stime": "14:00",
+      "Etime": "15:00",
+      "available": true,
+      "id": "SLOT-DOC002-20261118-1400"
+    },
+    {
+      "doc_id": "DOC002",
+      "date": "2026-11-19",
+      "Stime": "15:00",
+      "Etime": "16:00",
+      "available": true,
+      "id": "SLOT-DOC002-20261119-1500"
+    },
+    {
+      "doc_id": "DOC003",
+      "date": "2026-11-18",
+      "Stime": "10:00",
+      "Etime": "11:00",
+      "available": true,
+      "id": "SLOT-DOC003-20261118-1000"
+    },
+    {
+      "doc_id": "DOC003",
+      "date": "2026-11-19",
+      "Stime": "11:00",
+      "Etime": "12:00",
+      "available": true,
+      "id": "SLOT-DOC003-20261119-1100"
+    },
+    {
+      "doc_id": "DOC004",
+      "date": "2026-11-18",
+      "Stime": "09:00",
+      "Etime": "10:00",
+      "available": true,
+      "id": "SLOT-DOC004-20261118-0900"
+    },
+    {
+      "doc_id": "DOC004",
+      "date": "2026-11-19",
+      "Stime": "14:00",
+      "Etime": "15:00",
+      "available": true,
+      "id": "SLOT-DOC004-20261119-1400"
+    },
+    {
+      "doc_id": "DOC005",
+      "date": "2026-11-18",
+      "Stime": "11:00",
+      "Etime": "12:00",
+      "available": true,
+      "id": "SLOT-DOC005-20261118-1100"
+    },
+    {
+      "doc_id": "DOC005",
+      "date": "2026-11-19",
+      "Stime": "12:00",
+      "Etime": "13:00",
+      "available": true,
+      "id": "SLOT-DOC005-20261119-1200"
+    },
+    {
+      "doc_id": "DOC006",
+      "date": "2026-11-18",
+      "Stime": "10:00",
+      "Etime": "11:00",
+      "available": true,
+      "id": "SLOT-DOC006-20261118-1000"
+    },
+    {
+      "doc_id": "DOC006",
+      "date": "2026-11-19",
+      "Stime": "11:00",
+      "Etime": "12:00",
+      "available": true,
+      "id": "SLOT-DOC006-20261119-1100"
+    },
+    {
+      "doc_id": "DOC007",
+      "date": "2026-11-18",
+      "Stime": "09:00",
+      "Etime": "10:00",
+      "available": true,
+      "id": "SLOT-DOC007-20261118-0900"
+    },
+    {
+      "doc_id": "DOC007",
+      "date": "2026-11-19",
+      "Stime": "10:00",
+      "Etime": "11:00",
+      "available": true,
+      "id": "SLOT-DOC007-20261119-1000"
+    },
+    {
+      "doc_id": "DOC008",
+      "date": "2026-11-18",
+      "Stime": "10:00",
+      "Etime": "11:00",
+      "available": true,
+      "id": "SLOT-DOC008-20261118-1000"
+    },
+    {
+      "doc_id": "DOC008",
+      "date": "2026-11-19",
+      "Stime": "11:00",
+      "Etime": "12:00",
+      "available": true,
+      "id": "SLOT-DOC008-20261119-1100"
+    },
+    {
+      "doc_id": "DOC009",
+      "date": "2026-11-18",
+      "Stime": "09:00",
+      "Etime": "10:00",
+      "available": true,
+      "id": "SLOT-DOC009-20261118-0900"
+    },
+    {
+      "doc_id": "DOC009",
+      "date": "2026-11-19",
+      "Stime": "14:00",
+      "Etime": "15:00",
+      "available": true,
+      "id": "SLOT-DOC009-20261119-1400"
+    },
+    {
+      "doc_id": "DOC010",
+      "date": "2026-11-18",
+      "Stime": "11:00",
+      "Etime": "12:00",
+      "available": true,
+      "id": "SLOT-DOC010-20261118-1100"
+    },
+    {
+      "doc_id": "DOC010",
+      "date": "2026-11-19",
+      "Stime": "12:00",
+      "Etime": "13:00",
+      "available": true,
+      "id": "SLOT-DOC010-20261119-1200"
+    },
+    {
+      "doc_id": "DOC011",
+      "date": "2026-11-18",
+      "Stime": "09:00",
+      "Etime": "10:00",
+      "available": true,
+      "id": "SLOT-DOC011-20261118-0900"
+    },
+    {
+      "doc_id": "DOC011",
+      "date": "2026-11-19",
+      "Stime": "10:00",
+      "Etime": "11:00",
+      "available": true,
+      "id": "SLOT-DOC011-20261119-1000"
+    },
+    {
+      "doc_id": "DOC012",
+      "date": "2026-11-18",
+      "Stime": "10:00",
+      "Etime": "11:00",
+      "available": true,
+      "id": "SLOT-DOC012-20261118-1000"
+    },
+    {
+      "doc_id": "DOC012",
+      "date": "2026-11-19",
+      "Stime": "15:00",
+      "Etime": "16:00",
+      "available": true,
+      "id": "SLOT-DOC012-20261119-1500"
+    },
+    {
+      "doc_id": "DOC013",
+      "date": "2026-11-18",
+      "Stime": "09:00",
+      "Etime": "10:00",
+      "available": true,
+      "id": "SLOT-DOC013-20261118-0900"
+    },
+    {
+      "doc_id": "DOC013",
+      "date": "2026-11-19",
+      "Stime": "10:00",
+      "Etime": "11:00",
+      "available": true,
+      "id": "SLOT-DOC013-20261119-1000"
+    },
+    {
+      "doc_id": "DOC014",
+      "date": "2026-11-18",
+      "Stime": "10:00",
+      "Etime": "11:00",
+      "available": true,
+      "id": "SLOT-DOC014-20261118-1000"
+    },
+    {
+      "doc_id": "DOC014",
+      "date": "2026-11-19",
+      "Stime": "11:00",
+      "Etime": "12:00",
+      "available": true,
+      "id": "SLOT-DOC014-20261119-1100"
+    },
+    {
+      "doc_id": "DOC015",
+      "date": "2026-11-18",
+      "Stime": "14:00",
+      "Etime": "15:00",
+      "available": true,
+      "id": "SLOT-DOC015-20261118-1400"
+    },
+    {
+      "doc_id": "DOC015",
+      "date": "2026-11-19",
+      "Stime": "15:00",
+      "Etime": "16:00",
+      "available": true,
+      "id": "SLOT-DOC015-20261119-1500"
+    },
+    {
+      "doc_id": "DOC002",
+      "date": "2026-10-19",
+      "Stime": "14:00",
+      "Etime": "15:00",
+      "available": true,
+      "id": "SLOT-DOC002-20261019-1400"
+    },
+    {
+      "doc_id": "DOC001",
+      "date": "2026-11-12",
+      "Stime": "11:00",
+      "Etime": "12:00",
+      "available": true,
+      "id": "8lZfSZ6xJAU"
     }
   ],
-  "appointments": [],
-  "specializations": [],
+  "appointments": [
+    {
+      "patientID": "zUfH-OO5tP8",
+      "doctorID": "DOC001",
+      "slotID": "SLOT-DOC001-20261110-1000",
+      "date": "10 Nov 2026",
+      "time": "10:00 AM - 11:00 AM",
+      "status": "confirmed",
+      "reason": "My arm is Paining; it's been 2 days",
+      "createAt": "19 Oct 2026",
+      "id": "YWaallHA5Lk"
+    },
+    {
+      "patientID": "zUfH-OO5tP8",
+      "doctorID": "DOC008",
+      "slotID": "SLOT-DOC008-20261112-1100",
+      "date": "12 Nov 2026",
+      "time": "11:00 AM - 12:00 PM",
+      "status": "cancelled",
+      "reason": "My tooth is hurting since last 3 days",
+      "createAt": "19 Oct 2026",
+      "id": "AfwiGj-TemM"
+    },
+    {
+      "patientID": "zUfH-OO5tP8",
+      "doctorID": "DOC001",
+      "slotID": "SLOT-DOC001-20261110-1100",
+      "date": "10 Nov 2026",
+      "time": "11:00 AM - 12:00 PM",
+      "status": "confirmed",
+      "reason": "I just had a heart transplant, and right now it is paining  ",
+      "createAt": "20 Oct 2026",
+      "id": "Kg_iolZChOI"
+    },
+    {
+      "patientID": "zUfH-OO5tP8",
+      "doctorID": "DOC001",
+      "slotID": "SLOT-DOC001-20261012-1000",
+      "date": "12 Oct 2026",
+      "time": "10:00 AM - 11:00 AM",
+      "status": "completed",
+      "reason": "Routine cardiology follow-up",
+      "createAt": "10 Oct 2026",
+      "id": "APT-COMP-001"
+    },
+    {
+      "patientID": "_2_V5ysGsVA",
+      "doctorID": "DOC002",
+      "slotID": "SLOT-DOC002-20261019-1400",
+      "date": "19 Oct 2026",
+      "time": "02:00 PM - 03:00 PM",
+      "status": "completed",
+      "reason": "Follow-up for skin irritation",
+      "createAt": "17 Oct 2026",
+      "id": "APT-COMP-002"
+    },
+    {
+      "patientID": "wKCfGWSg17A",
+      "doctorID": "DOC001",
+      "slotID": "XrcKBF52_j8",
+      "date": "13 Nov 2026",
+      "time": "04:20 PM - 05:20 PM",
+      "status": "confirmed",
+      "reason": "Routine cardiology consultation",
+      "createAt": "20 Oct 2026",
+      "id": "APT-CONF-002"
+    },
+    {
+      "patientID": "zUfH-OO5tP8",
+      "doctorID": "DOC001",
+      "slotID": "SLOT-DOC001-20261112-0900",
+      "date": "12 Nov 2026",
+      "time": "9:00 AM - 10:00 AM",
+      "status": "rejected",
+      "reason": "Test appoinment",
+      "createAt": "22 Oct 2026",
+      "id": "v2T9zUjs_lE"
+    },
+    {
+      "patientID": "zUfH-OO5tP8",
+      "doctorID": "DOC001",
+      "slotID": "5aqyPyEmsUk",
+      "date": "26 Oct 2026",
+      "time": "7:30 PM - 8:30 PM",
+      "status": "completed",
+      "reason": "Chest Pain",
+      "createAt": "26 Oct 2026",
+      "id": "4QROBbWFmOo"
+    },
+    {
+      "patientID": "zUfH-OO5tP8",
+      "doctorID": "DOC008",
+      "slotID": "SLOT-DOC008-20261113-1600",
+      "date": "13 Nov 2026",
+      "time": "4:00 PM - 5:00 PM",
+      "status": "confirmed",
+      "reason": "I have Tooth Pain",
+      "createAt": "29 Oct 2026",
+      "id": "IBd9dcvn-EQ"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }

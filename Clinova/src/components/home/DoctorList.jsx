@@ -1,5 +1,3 @@
-import React from "react";
-
 function DoctorList({ users }) {
    
    return (
@@ -85,14 +83,14 @@ function DoctorList({ users }) {
                                     {items.specialization}
                                  </p>
 
-                                 <div>
+                                 {/* <div>
                                     <button className="btn-highlighted m-0 w-250px pe-3 d-flex align-items-center">
                                        <span className="flex-grow-1">
                                           Check Availability
                                        </span>{" "}
                                        <i className="ri-arrow-right-long-fill h5 m-0"></i>
                                     </button>
-                                 </div>
+                                 </div> */}
                               </div>
                            </div>
                         </div>

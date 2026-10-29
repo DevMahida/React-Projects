@@ -29,15 +29,15 @@ function HeroSection() {
                   </div>
 
                   {/* search box */}
-                  <div className="border Search border-dark border-2 rounded-4 ps-4 p-2 d-flex align-items-center gap-3 rounded-2 w-50 mt-5">
-                     {/* search icon */}
+                  {/* <div className="border Search border-dark border-2 rounded-4 ps-4 p-2 d-flex align-items-center gap-3 rounded-2 w-50 mt-5">
+                     search icon
                      <div className="d-flex align-items-center search-icon">
                         <label htmlFor="search">
                            <i className="fa-solid fa-magnifying-glass"></i>
                         </label>
                      </div>
 
-                     {/* input field */}
+                     input field
                      <div className="flex-grow-1 d-flex align-items-center">
                         <input
                            className="form-control bg-transparent  text-white"
@@ -47,14 +47,14 @@ function HeroSection() {
                         />
                      </div>
 
-                     {/* find care btn */}
+                     find care btn
                      <div className="d-flex align-items-center">
                         <button className="btn-highlighted py-4 mt-0">
                            Find Care{" "}
                            <i className="ri-arrow-right-long-fill"></i>
                         </button>
                      </div>
-                  </div>
+                  </div> */}
                </div>
             </div>
          </div>
