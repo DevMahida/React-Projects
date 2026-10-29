@@ -35,6 +35,7 @@
   - [1. Public Discovery](#1-public-discovery)
   - [2. Patient Experience (Dev Mahida)](#2-patient-experience-dev-mahida)
   - [3. Doctor Portal (Dr. Arjun Mehta)](#3-doctor-portal-dr-arjun-mehta)
+- [Video Recording](#video-recording)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
@@ -287,6 +288,12 @@ The appointment control center displays patient name, contact details, date, tim
 * **Complete:** Marks an ongoing or conducted visit as completed once the patient has been seen.
 
 ![Doctor Appointments](./public/screenshots/doctor-appointments.png)
+
+---
+
+## Video Recording
+
+[View the Clinova video recording](https://drive.google.com/drive/folders/1hoG-UF89BnlpePf9CdQIXxknfyvMvarY?usp=sharing)
 
 ---
 
